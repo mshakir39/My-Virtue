@@ -31,8 +31,10 @@ const Navigation = () => {
         <Link href="/about">About</Link>
         <Link href="/services">Services</Link>
         <Link href="/contact">Contact</Link>
-        <Button label="Login" style={{ width: '100px' }}></Button>
-        <Button label="Register" style={{ width: '100px', marginRight: '10px' }}></Button>
+        <Link href="/login"> Login </Link>
+        <Link href="/register"> Register </Link>
+        {/* <Button label="Login" style={{ width: '100px' }} onClick={() => window.location.replace(`/login`)}></Button>
+        <Button label="Register" style={{ width: '100px', marginRight: '10px' }}></Button> */}
         {/* <LoginBtn>Login</LoginBtn> */}
         {/* <LoginBtn>Register</LoginBtn> */}
       </NavContainer>

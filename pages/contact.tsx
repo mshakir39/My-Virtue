@@ -1,11 +1,6 @@
-import { Layout } from '../Components/Navigation/Layout/Layout';
+import { Layout } from '../src/Components/Navigation/Layout/Layout';
 export const Contact = () => {
-  return (  <Layout>
+  return <Layout>Contact</Layout>;
+};
 
-    Contact
-  </Layout>)
-  
-  };
-  
-  export default Contact;
-  
+export default Contact;

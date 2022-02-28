@@ -11,7 +11,8 @@ justify-content:space-between;
 align-items:center;
 background:${NavProps => (NavProps.position == 'fixed' ? '#5f3c17' : 'none')};
 transition:1.5s;
-
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+height:100px;
 padding-left:30px;
 
     width: -webkit-fill-available;

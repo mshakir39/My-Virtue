@@ -1,11 +1,6 @@
-import { Layout } from '../Components/Navigation/Layout/Layout';
+import { Layout } from '../src/Components/Navigation/Layout/Layout';
 export const About = () => {
-  return(  <Layout>
+  return <Layout>About</Layout>;
+};
 
-    About
-  </Layout>)
-  
-  };
-  
-  export default About;
-  
+export default About;
